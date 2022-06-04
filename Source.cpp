@@ -20,7 +20,7 @@ int main() {
 	cout << "Update change after dollar conversion: " << change << endl;
 
 	quarters = change / 25;
-	change = change % 25;
+	change %= 25;
 	cout << "Number of quarters: " << quarters << endl;
 	cout << "Update change after quarters conversion: " << change << endl;
 
