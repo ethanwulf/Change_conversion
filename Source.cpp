@@ -25,7 +25,7 @@ int main() {
 	cout << "Update change after quarters conversion: " << change << endl;
 
 	dimes = change / 10;
-	change = change % 10;
+	change %= 10;
 	cout << "Number of dimes: " << dimes << endl;
 	cout << "Update change after dimes conversion: " << change << endl;
 
